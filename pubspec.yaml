@@ -1,0 +1,96 @@
+name: efood_multivendor
+description: A new Flutter application.
+publish_to: 'none' #
+version: 1.0.0+4
+
+
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  html: ^0.15.4
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get: ^4.6.5
+  shared_preferences: ^2.0.15
+  connectivity: ^3.0.6
+  firebase_core: ^2.4.1
+  firebase_messaging: ^14.2.1
+  flutter_local_notifications: ^13.0.0
+  path_provider: ^2.0.8
+  url_strategy: ^0.2.0
+  pin_code_fields: ^7.3.0
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.1.1
+  google_maps_flutter_web: ^0.4.0+5
+  flutter_typeahead: ^4.3.7
+  carousel_slider: ^4.0.0
+  shimmer_animation: ^2.1.0+1
+  image_picker: ^0.8.5+3
+  universal_html: ^2.0.8
+  flutter_inappwebview: ^5.7.1+2
+  url_launcher: ^6.0.17
+  http: ^0.13.4
+  pointer_interceptor: ^0.9.0+1
+  phone_number: ^1.0.0
+  country_code_picker: ^2.0.2
+  cached_network_image: ^3.3.0
+  google_sign_in: ^5.4.2
+  google_sign_in_web: ^0.10.2
+  flutter_facebook_auth: ^5.0.7
+  photo_view: ^0.14.0
+  dotted_border: ^2.0.0+2
+  share_plus: ^6.3.0
+  custom_map_markers: ^0.0.2+1
+  image_compression_flutter: ^1.0.2
+  card_swiper: ^2.0.4
+  expandable_bottom_sheet: ^1.1.1+1
+  uni_links: ^0.5.1
+  modal_bottom_sheet:
+  sign_in_with_apple: ^4.3.0
+  flutter_html: 3.0.0-alpha.5
+  flutter_widget_from_html: ^0.8.5
+  intl: ^0.18.0
+  flutter_slidable: ^3.0.0
+  just_the_tooltip: ^0.0.12
+  animated_flip_counter: ^0.2.0
+  meta_seo: ^3.0.5
+  fluttertoast: ^8.2.2
+  marquee: ^2.2.3
+  syncfusion_flutter_datepicker: ^23.1.42
+  firebase_crashlytics: ^3.4.3
+  file_picker: ^5.2.10
+  path: ^1.8.2
+  http_parser: ^4.0.2
+
+dependency_overrides:
+  modal_bottom_sheet: ^3.0.0-pre
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900

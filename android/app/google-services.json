@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "792483288011",
+    "project_id": "weekook",
+    "storage_bucket": "weekook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792483288011:android:a224d03f1717cb933e9c4e",
+        "android_client_info": {
+          "package_name": "com.weekook.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMJF7yxSzGcz6HDSHvyqkC0TqQaxhv6II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792483288011-ieiqs1q25oeb8m1jhk9pt6a1ri4khtbl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weekook.userapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
