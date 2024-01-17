@@ -31,6 +31,9 @@ class MenuScreenNew extends StatefulWidget {
 }
 
 class _MenuScreenNewState extends State<MenuScreenNew> {
+  ///
+  /// FLUNCTION URL
+  ///
   launchUrl(String url) async {
     if (await canLaunch(url)) {
       await launch(url);
@@ -39,6 +42,9 @@ class _MenuScreenNewState extends State<MenuScreenNew> {
     }
   }
 
+  ///
+  /// Ios And Play Store link
+  ///
   openStore() {
     // Replace 'your_package_name' with the actual package name of your app
     String playStoreUrl =
@@ -353,6 +359,9 @@ class _MenuScreenNewState extends State<MenuScreenNew> {
 
                           InkWell(
                               onTap: () {
+                                ///
+                                /// Call Link
+                                ///
                                 openStore();
                               },
                               child: Container(
