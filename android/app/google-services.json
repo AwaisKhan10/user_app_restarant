@@ -7,9 +7,53 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:792483288011:android:a224d03f1717cb933e9c4e",
+        "mobilesdk_app_id": "1:792483288011:android:97825a73fdeea7733e9c4e",
         "android_client_info": {
-          "package_name": "com.weekook.userapp"
+          "package_name": "com.weekook.cuistot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792483288011-jhsha0k1g8qjmlo1561mf7v1skuthjm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weekook.cuistot",
+            "certificate_hash": "2ff60762502708f75f9041e3ca8457919a575723"
+          }
+        },
+        {
+          "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMJF7yxSzGcz6HDSHvyqkC0TqQaxhv6II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792483288011-9dvub0hklbp7p71v5bal0e0k3cn06n2n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weekook.userapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792483288011:android:b5e76cbf64e4fea93e9c4e",
+        "android_client_info": {
+          "package_name": "com.weekook.delivery"
         }
       },
       "oauth_client": [
@@ -31,7 +75,51 @@
               "client_type": 3
             },
             {
-              "client_id": "792483288011-ieiqs1q25oeb8m1jhk9pt6a1ri4khtbl.apps.googleusercontent.com",
+              "client_id": "792483288011-9dvub0hklbp7p71v5bal0e0k3cn06n2n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weekook.userapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792483288011:android:68a41927ebf6f8643e9c4e",
+        "android_client_info": {
+          "package_name": "com.weekook.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792483288011-6imjg4e0r1e076pc2l7gganp826rdk9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weekook.user",
+            "certificate_hash": "2ff60762502708f75f9041e3ca8457919a575723"
+          }
+        },
+        {
+          "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMJF7yxSzGcz6HDSHvyqkC0TqQaxhv6II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792483288011-593rpdr33htaj21ler9kn3fvfblt471t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792483288011-9dvub0hklbp7p71v5bal0e0k3cn06n2n.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.weekook.userapp"
